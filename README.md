@@ -21,13 +21,13 @@ Duration_hour, Duration_min
 
 ⚙️ Key Steps Performed
 
-Date Splitting
+1.Date Splitting
 
 Extracted Date, Month, and Year from Date_of_Journey
 
 Converted them to integer type
 
-Time Feature Extraction
+2.Time Feature Extraction
 
 From Dep_time: derived Dep_hour, Dep_min
 
@@ -35,17 +35,17 @@ From Arrival_time: derived ArrivalHour, ArrivalMin
 
 From Duration: derived Duration_hour, Duration_min
 
-Categorical to Numeric Conversion
+3.Categorical to Numeric Conversion
 
 Converted Total_Stops values (e.g., 'non-stop', '1 stop') into numeric form
 
-Data Cleaning
+4.Data Cleaning
 
 Dropped unnecessary columns (Route, original time/date columns)
 
 Fixed data types and handled missing values
 
-Final Output
+5.Final Output
 
 Created a clean dataset ready for model training
 
